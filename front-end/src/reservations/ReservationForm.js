@@ -48,6 +48,7 @@ export default function ReservationForm({
               className="form-control"
               id="mobile_number"
               placeholder="111-222-3333"
+              pattern="[1-9]{1}[0-9]{9}"
               onChange={handleChange}
               value={`${reservation.mobile_number}`}
               required={true}
