@@ -162,4 +162,3 @@ export async function updateReservation(form, reservation_id, signal) {
 
   return await fetchJson(url, option, {});
 }
-

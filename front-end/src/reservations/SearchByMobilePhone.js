@@ -58,8 +58,8 @@ export default function SearchByMobilePhone() {
               name="mobile_number"
               id="mobile_number"
               type="text"
-              placeholder="Enter a customer's phone number"
               pattern="[1-9]{1}[0-9]{9}"
+              placeholder="Enter a customer's phone number"
               onChange={handleChange}
               value={formData.mobile_number}
               required
